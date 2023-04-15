@@ -1,0 +1,308 @@
+a{
+    text-decoration: none;
+}
+
+body
+{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+/* if i dont put the parent position as relative they will consider grandparent/body as parent */
+h1
+{
+    /* padding doesnt work in herearchy so it means 8% of veiwport */
+    margin: 2% auto 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    line-height: 2;
+}
+h2
+{
+    margin-top: 0%;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    color: #66BFBF;
+}
+h3
+{
+    color: #11999E;
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 1.5rem;
+}
+p{
+    color: #40514E;
+}
+.bio
+{
+    line-height: 2;
+}
+.BMVB-IMG
+{
+    width:25%;
+    height: 25%;
+    padding:0 5%;
+    /* position: relative; */
+}
+.bottom-cloud
+{
+    position: absolute;
+    top:45%;
+    left:20%;
+}
+.bottom-container{
+    padding: 4% 0 2%;
+    margin-bottom: 0px;
+    background-color:#66BFBF ; 
+} 
+.btn {
+    background:  #11cdd4;
+    background-image: -webkit-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom,  #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    /* margin-top: 3%; */
+  }
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.computer
+{
+    border-radius: 100%;
+}
+.contact-me
+{
+    padding: 2.5% 3% 2.5%;
+    margin: 0;
+    background-color: #E9F8F9;
+}
+.Education
+{
+    background-color: #E3DFFD;
+    padding:2% 0;
+}
+.edu-row
+{
+    padding: 2.5% 3% 1.5%;
+    margin: 0 auto;
+    width:50%;
+    background-color: #EEEEEE;
+    border-radius: 5%;
+}
+.footer-link{
+    margin:0 1.8%;
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.footer-link:hover
+{
+    color: #EAF6F6;
+}
+.Hobbies
+{
+    padding:2% 0;
+    background-color: #C0EEF2;
+}
+.H-Img
+{
+    width:25%;
+    height: 25%;
+    border-radius: 100%;  
+   
+}
+.Hob-Row
+{
+    padding: 2.5% 3% 2.5%;
+    margin: 0 auto;
+    width:50%;
+    background-color: #E9F8F9;
+    border-radius: 5%;
+}
+.hr1
+{
+    border-style: dotted none none;
+    width: 5%;
+    /* width sets the widh of hr*/
+    border-width: 5px;
+    border-color: grey;
+    margin:1% auto ;
+}
+.hr2
+{
+    margin:0;
+}
+.profile
+{
+    padding: 2.5% 3% 2.5%;
+    width:50%;
+    margin: auto;
+}
+.skills
+{
+    padding-top: 2%;
+    background-color: #FEFBE9;
+}
+.S1
+{
+    float: left;
+    margin-right: 7%;
+}
+.S2
+{
+    float: right;
+    margin-left: 7%;
+}
+.S-IMG
+{
+    width:25%;
+    height: 25%;
+    border-radius: 100%;  
+    background-color: #E3DFFD; 
+}
+.skill-row
+{
+    padding: 2.5% 3% 2.5%;
+    margin: 0 auto;
+    width:50%;
+    line-height: 2;
+    text-align: left;
+}
+.top-cloud
+{
+    position: absolute;
+    top: 8%;
+    /* it means 8% of div*/
+    right:20%;
+}
+.top-container{
+    padding-top: 8%;
+    margin: 0px;
+    background-color:#e1fbf4 ; 
+    position: relative;
+} 
+#Kunal-Img
+{
+    /* here width takes the size of div rather than body */
+    width:25%;
+    height: 25%;
+}
+.container-fluid
+{background-color: #A4907C;}
+
+
+
+
+
+
+
+
+
+
+
+/* .content
+{
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    width: 40%;
+    padding:0 5%;
+
+} */
+
+/* 
+#cr1
+{
+    right: 4.5%;
+    bottom:30%;
+}
+#cr2
+{
+    bottom: 25%;
+}
+#cr3
+{
+    right: 4.5%;
+    bottom: 8%;
+}
+#cr4
+{
+    bottom:15%;
+}
+#I1
+{
+    left:56.5%;
+
+}
+#I2
+{
+    left:12.5%;
+} */
+
+
+
+
+
+/* font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive; */
+
+
+
+
+/************************* PRACTICE *************************/
+
+/* div{
+    height: 200px;
+    width: 200px;
+} */
+
+
+/* .top-container{
+    border: 10px solid black;
+    padding: 20px;
+    margin: 0px;
+    background-color:#D1FFF3 ; 
+} */
+
+
+/* .middle-container
+{
+    margin-left: 260px;
+    border: 20px solid black;
+    background-color: pink;
+}
+
+
+.bottom-container
+{
+    background-color: blueviolet;
+    border: 10px solid black;
+    margin-left: 500px;
+} */
+
+
+/* 
+.pro{
+    text-decoration: underline;
+} */
